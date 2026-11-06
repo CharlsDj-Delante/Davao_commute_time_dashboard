@@ -1,0 +1,14 @@
+
+---
+title: "Downtown commute time"
+format: dashboard
+---
+
+# Row
+
+## Column
+
+```{python}
+import plotly.express as px
+fig = px.bar(x=["A", "B", "C"], y=[10, 20, 15])
+fig.show()
